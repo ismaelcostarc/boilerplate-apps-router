@@ -1,5 +1,5 @@
 const Main = () => {
-  const foo = "bar"
+  const foo = "bar";
   return (
     <main>
       <h1>asdas</h1>
