@@ -1,7 +1,7 @@
 const Main = () => {
   return (
     <main>
-      <h1>React</h1>
+      <h1>asdas</h1>
     </main>
   );
 };

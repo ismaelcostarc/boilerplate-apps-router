@@ -6,11 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "format": "prettier --write",
+    "lint": "eslint . --fix --max-warnings=0",
+    "format": "prettier . --write",
     "test": "jest --passWithNoTests --maxWorkers=50%",
     "test:watch": "jest --watch --maxWorkers=25%",
-    "test:ci": "jest --runInBand"
+    "test:ci": "jest --runInBand",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "14.2.14",
@@ -42,5 +43,9 @@
     "prettier": "3.3.3",
     "typescript": "^5",
     "typescript-eslint": "^8.8.0"
+  },
+  "lint-staged": {
+    "*.js": "npm run lint",
+    "*.{js,css,md,html,json}": "npm run format"
   }
 }
