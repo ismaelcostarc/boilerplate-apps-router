@@ -1,3 +1,0 @@
-npm run lint --fix
-prettier --write
-npm run test
