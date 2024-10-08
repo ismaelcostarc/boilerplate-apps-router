@@ -45,10 +45,11 @@
     "typescript-eslint": "^8.8.0"
   },
   "lint-staged": {
-    "*.tsx": [
-      "prettier . --write",
-      "eslint --fix",
-      "jest --passWithNoTests --maxWorkers=50%"
+    "**/*.js": [
+      "prettier --write",
+      "eslint src/ --fix",
+      "jest --bail --findRelatedTests",
+      "git add"
     ]
   }
 }
