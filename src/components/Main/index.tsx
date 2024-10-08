@@ -1,8 +1,7 @@
 const Main = () => {
-  const foo = "bar";
   return (
     <main>
-      <h1>asdas</h1>
+      <h1>React</h1>
     </main>
   );
 };
