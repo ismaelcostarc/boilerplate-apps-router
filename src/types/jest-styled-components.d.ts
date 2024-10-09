@@ -22,11 +22,13 @@ declare global {
   }
 }
 
-export interface StyledComponentsSerializerOptions { 
-  addStyles?: boolean, 
-  classNameFormatter?: (index: number) => string 
-} 
+export interface StyledComponentsSerializerOptions {
+  addStyles?: boolean;
+  classNameFormatter?: (index: number) => string;
+}
 
 export declare const styleSheetSerializer: NewPlugin & {
-  setStyleSheetSerializerOptions: (options?: StyledComponentsSerializerOptions) => void 
+  setStyleSheetSerializerOptions: (
+    options?: StyledComponentsSerializerOptions,
+  ) => void;
 };
