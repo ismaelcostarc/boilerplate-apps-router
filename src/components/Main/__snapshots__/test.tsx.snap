@@ -12,15 +12,29 @@ exports[`<Main /> should render the heading 1`] = `
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+}
+
+.c1 {
+  font-size: 3rem;
+}
+
+.c2 {
+  font-size: 1.5rem;
 }
 
 <main
   class="c0"
 >
-  <main>
-    <h1>
-      React Avançado
-    </h1>
-  </main>
+  <h1
+    class="c1"
+  >
+    React Avançado
+  </h1>
+  <h2
+    class="c2"
+  >
+    Descrição
+  </h2>
 </main>
 `;

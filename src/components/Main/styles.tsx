@@ -13,4 +13,13 @@ export const Wrapper = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
+`;
+
+export const Title = styled.h1`
+  font-size: 3rem;
+`;
+
+export const Description = styled.h2`
+  font-size: 1.5rem;
 `;

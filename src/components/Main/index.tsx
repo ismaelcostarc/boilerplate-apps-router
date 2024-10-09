@@ -1,11 +1,10 @@
 import * as S from "./styles";
 
-const Main = () => {
+const Main = ({ title = "React Avançado", description = "Descrição" }) => {
   return (
     <S.Wrapper>
-      <main>
-        <h1>React Avançado</h1>
-      </main>
+      <S.Title>{title}</S.Title>
+      <S.Description>{description}</S.Description>
     </S.Wrapper>
   );
 };

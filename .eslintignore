@@ -4,3 +4,4 @@ coverage
 !.jest
 .next
 node_modules
+storybook-static
