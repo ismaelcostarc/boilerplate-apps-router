@@ -28,7 +28,6 @@ const config = {
     "!src/styles/**",
     "!src/types/**",
     "!src/**/stories.tsx",
-    "!generators",
   ],
 
   // The directory where Jest should output its coverage files
