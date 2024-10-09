@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KellyGlaucie should render the component 1`] = `
+<div
+  class=""
+>
+  <h1>
+    KellyGlaucie
+  </h1>
+</div>
+`;
